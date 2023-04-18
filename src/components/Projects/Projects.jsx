@@ -16,11 +16,16 @@ import p31 from "../../assets/p3-1.png";
 import p32 from "../../assets/p3-2.png";
 import p33 from "../../assets/p3-3.png";
 import p34 from "../../assets/p3-4.png";
+import p41 from "../../assets/p4-1.png";
+import p42 from "../../assets/p4-2.png";
+import p43 from "../../assets/p4-3.png";
+
 
 const Projects = () => {
   const images1 = [p11, p12, p13, p14, p15, p16, p17];
   const images2 = [p21, p22, p23];
   const images3 = [p31, p32, p33,p34];
+  const images4 = [p41, p42, p43];
 
   return (
     <div className="projects-container">
@@ -48,6 +53,7 @@ const Projects = () => {
         </p>
         <button><a href="https://eventproposalpage-project.netlify.app/" target="_blank">See Live </a></button>
       </div>
+
       <div className="card">
       <SimpleImageSlider
           width={1150}
@@ -63,11 +69,22 @@ const Projects = () => {
         </p>
         <button><a href="https://elimillasrinivas.github.io/Todo-List-App/">See Live </a></button>
       </div>
+
       <div className="card">
-        <img
-          src="https://images.unsplash.com/photo-1590479773265-7464e5d48118?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-          alt="sde"
+      <SimpleImageSlider
+          width={1150}
+          height={650}
+          images={images4}
+          showBullets={true}
+          showNavs={true}
+
         />
+        <h1>Calculator</h1>
+        <p>
+        A calculator built using HTML, CSS, and JavaScript is a simple yet effective project.
+        The calculator designed using HTML and CSS to create the user interface. The interface typically includes a display area for showing the input and output, as well as buttons for numbers, operators, and functions. CSS can be used to style the interface and make it visually appealing.The calculator's functionality can be implemented using JavaScript.
+        </p>
+        <button><a href="https://elimillasrinivas.github.io/Calculator/">See Live </a></button>
       </div>
       <div className="card">
         <img
