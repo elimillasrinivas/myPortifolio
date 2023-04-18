@@ -54,7 +54,7 @@
     font-size: 20px;
 }
 
-.links>ul>li>a {
+.links>ul>a {
     text-decoration: none;
     font-family: "Lato", sans-serif;
     color: black;
