@@ -14,10 +14,6 @@ const Header = () => {
 
         <div className="links">
             <ul>
-<<<<<<< HEAD
-              
-=======
->>>>>>> 5181d8ce99e92ea440ad2861031023e7ccadb866
                 <Link to='/'>Home</Link>
                 <Link to='/about'>About</Link>
                 <Link to='/projects'>Projects</Link>
