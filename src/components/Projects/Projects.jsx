@@ -19,6 +19,7 @@ import p34 from "../../assets/p3-4.png";
 import p41 from "../../assets/p4-1.png";
 import p42 from "../../assets/p4-2.png";
 import p43 from "../../assets/p4-3.png";
+import p51 from "../../assets/p5-1.png";
 
 
 const Projects = () => {
@@ -67,7 +68,7 @@ const Projects = () => {
         <p>
         A todo list is a simple but effective tool used for organizing and managing tasks and activities. It typically consists of a list of items or tasks that need to be completed. The purpose of a todo list is to help the user keep track of what needs to be done, prioritize tasks, and stay focused on their goals. By breaking down larger projects into smaller, manageable tasks, a todo list can also help reduce stress and increase productivity.
         </p>
-        <button><a href="https://elimillasrinivas.github.io/Todo-List-App/">See Live </a></button>
+        <button><a href="https://elimillasrinivas.github.io/Todo-List-App/" target="_blank">See Live </a></button>
       </div>
 
       <div className="card">
@@ -84,13 +85,19 @@ const Projects = () => {
         A calculator built using HTML, CSS, and JavaScript is a simple yet effective project.
         The calculator designed using HTML and CSS to create the user interface. The interface typically includes a display area for showing the input and output, as well as buttons for numbers, operators, and functions. CSS can be used to style the interface and make it visually appealing.The calculator's functionality can be implemented using JavaScript.
         </p>
-        <button><a href="https://elimillasrinivas.github.io/Calculator/">See Live </a></button>
+        <button><a href="https://elimillasrinivas.github.io/Calculator/" target="_blank">See Live </a></button>
       </div>
       <div className="card">
         <img
-          src="https://images.unsplash.com/photo-1590479773265-7464e5d48118?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+          src={p51}
           alt="sde"
         />
+        <h1>Digital Clock</h1>
+        <p>
+        A Digital Clock built using HTML, CSS, and JavaScript is a simple yet effective project.
+        The Digital Clock designed using HTML and CSS to create the user interface. The interface typically includes a display area for showing the live time.
+        </p>
+        <button><a href="https://elimillasrinivas.github.io/digitalclock/" target="_blank">See Live </a></button>
       </div>
       <div className="card">
         <img
