@@ -12,9 +12,16 @@ const Contact = () => {
       <h1>Contact me</h1>
       <div className="icons">
         <p>
-          <img src={phone} alt="phone" />
+          <a href='tel:7989288189'>
+            <img src={phone} alt="phone" />
+          </>
           7989288189
         </p>
+        <p>
+          <a href='sms:7989288189'>
+            Send SMS
+          </>
+        </>
         <p>
           <img src={location} alt="location" />
           Hyderabad
