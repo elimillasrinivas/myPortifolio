@@ -12,14 +12,12 @@ const Contact = () => {
       <h1>Contact me</h1>
       <div className="icons">
         <p>
-          <a href='tel:7989288189'>
             <img src={phone} alt="phone" />
-          </a>
           7989288189
         </p>
         <p>
-          <a href='sms:7989288189'>
-            Send SMS
+          <a href='https://wa.me/7989288189'>
+            Whatsapp
           </a>
         </p>
         <p>
