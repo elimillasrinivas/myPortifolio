@@ -14,14 +14,14 @@ const Contact = () => {
         <p>
           <a href='tel:7989288189'>
             <img src={phone} alt="phone" />
-          </>
+          </a>
           7989288189
         </p>
         <p>
           <a href='sms:7989288189'>
             Send SMS
-          </>
-        </>
+          </a>
+        </p>
         <p>
           <img src={location} alt="location" />
           Hyderabad
