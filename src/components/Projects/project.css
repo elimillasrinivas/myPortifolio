@@ -1,29 +1,27 @@
 .projects-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 10px;
-  width: 90%;
-  height: 100vh;
-  margin-left: 7rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 2rem;
+  padding: 2.75rem;
 }
 .card {
-  margin-top: 2rem;
   width: 100%;
   border: 1px solid;
   box-shadow: 0 5px 5px rgba(10, 10, 10, 0.3);
 }
 .card > h1 {
-  margin-left: 2rem;
+  font-size: 2rem;
+  margin-left: 1rem;
 }
 .card > p {
-  margin-left: 2rem;
   text-align: justify;
-  margin-right: 2rem;
+  margin: 1rem;
 }
-.card > img {
-  width: 100%;
-  object-fit: cover;
-}
+
 .card > button {
   border: none;
   font-size: 20px;
@@ -38,4 +36,10 @@
 }
 .card > button > a:hover {
   color: rgb(55, 55, 87);
+}
+
+@media screen and (max-width: 640px) {
+  .projects-container {
+    padding: 0.5rem;
+  }
 }

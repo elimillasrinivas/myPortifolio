@@ -31,15 +31,16 @@ const Projects = () => {
   const images2 = [p21, p22, p23];
   const images3 = [p31, p32, p33, p34];
   const images4 = [p41, p42, p43];
-  const images5 = [p61, p62, p63, p64, p65];
+  const images5 = [p51];
+  const images6 = [p61, p62, p63, p64, p65];
 
   return (
     <div className="projects-container">
       <div className="card">
         <SimpleImageSlider
-          width="89.9%"
+          width="95%"
           height="90vh"
-          images={images5}
+          images={images6}
           showBullets={true}
           showNavs={true}
         />
@@ -60,7 +61,7 @@ const Projects = () => {
 
       <div className="card">
         <SimpleImageSlider
-          width="89.9%"
+          width="95%"
           height="90vh"
           images={images1}
           showBullets={true}
@@ -92,7 +93,7 @@ const Projects = () => {
 
       <div className="card">
         <SimpleImageSlider
-          width="89.9%"
+          width="95%"
           height="90vh"
           images={images2}
           showBullets={true}
@@ -120,7 +121,7 @@ const Projects = () => {
 
       <div className="card">
         <SimpleImageSlider
-          width="89.9%"
+          width="95%"
           height="90vh"
           images={images4}
           showBullets={true}
@@ -145,8 +146,15 @@ const Projects = () => {
           </a>
         </button>
       </div>
-      <div className="card">
-        <img src={p51} alt="sde" />
+
+      {/* <div className="card">
+        <SimpleImageSlider
+          width="95%"
+          height="90vh"
+          images={images5}
+          showBullets={true}
+          showNavs={true}
+        />
         <h1>Digital Clock</h1>
         <p>
           A Digital Clock built using HTML, CSS, and JavaScript is a simple yet
@@ -162,13 +170,7 @@ const Projects = () => {
             See Live{" "}
           </a>
         </button>
-      </div>
-      <div className="card">
-        <img
-          src="https://images.unsplash.com/photo-1590479773265-7464e5d48118?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-          alt="sde"
-        />
-      </div>
+      </div> */}
     </div>
   );
 };
