@@ -12,13 +12,8 @@ const Contact = () => {
       <h1>Contact me</h1>
       <div className="icons">
         <p>
-            <img src={phone} alt="phone" />
-          7989288189
-        </p>
-        <p>
-          <a href='https://wa.me/7989288189'>
-            Whatsapp
-          </a>
+          <img src={phone} alt="phone" />
+          <a href="https://wa.me/7989288189">7989288189</a>
         </p>
         <p>
           <img src={location} alt="location" />
@@ -39,7 +34,7 @@ const Contact = () => {
         </p>
         <p>
           <img src={github} alt="github" />
-          <a href="https://github.com/elimillasrinivas"  target="_blank">
+          <a href="https://github.com/elimillasrinivas" target="_blank">
             https://github.com/elimillasrinivas
           </a>
         </p>
